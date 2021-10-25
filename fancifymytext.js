@@ -21,3 +21,8 @@ function boringAlert() {
 
   alert("boring alert");
 }
+function moo() {
+  document.getElementById("textInput").style.textTransform = "uppercase";
+  var checked = document.getElementById("textInput").value.split(" ");
+  document.getElementById("textInput").value = checked.join("-Moo");
+}
